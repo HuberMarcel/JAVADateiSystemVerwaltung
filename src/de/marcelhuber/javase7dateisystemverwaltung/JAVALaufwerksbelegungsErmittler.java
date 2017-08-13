@@ -17,6 +17,7 @@ public class JAVALaufwerksbelegungsErmittler {
     {
         platzFuerZeichen = new int[]{20, 30, 30};
 //        loc = new Locale("de", "DE");
+        // besser direkt so:
         loc = Locale.GERMAN;
         nf = NumberFormat.getInstance(loc);
 //        nf.setGroupingUsed(false);
