@@ -4,11 +4,11 @@ package javadateisystemverwaltung;
  *
  * @author Marcel Huber; letzte Änderung 13.08.2017
  */
-public class JAVALaufwerbelegungsErmittler {
+public class JAVALaufwerksbelegungsErmittler {
 
     public static void main(String[] args) {
-        JAVALaufwerbelegungsErmittler dummyObject
-                = new JAVALaufwerbelegungsErmittler();
+        JAVALaufwerksbelegungsErmittler dummyObject
+                = new JAVALaufwerksbelegungsErmittler();
         dummyObject.showLaufwerksbelegung();
     }
 
