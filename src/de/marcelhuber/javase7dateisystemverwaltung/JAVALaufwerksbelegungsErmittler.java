@@ -10,9 +10,9 @@ import java.util.Locale;
  */
 public class JAVALaufwerksbelegungsErmittler {
 
-    private int[] platzFuerZeichen;
-    private NumberFormat nf;
-    private Locale loc;
+    private final int[] platzFuerZeichen;
+    private final NumberFormat nf;
+    private final Locale loc;
 
     {
         platzFuerZeichen = new int[]{20, 30, 30};
